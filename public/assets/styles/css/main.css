@@ -1,0 +1,128 @@
+body{
+   height:100%;
+   width:100%;
+    background-color:#2222;
+    padding-top: 35px;
+}
+
+#login{
+ margin-top:100px;   
+}
+#form{
+margin-top:50px;
+}
+fieldset{
+    padding:10px;
+}
+a:hover{
+color:red;
+text-decoration: none;
+}
+
+/* pre-header:starts */
+.fa{
+  color:#58C2DD; 
+  
+
+}
+#pre-header{
+    background-color:black;
+    width:100%;
+}
+
+/* pre-header:ends */
+
+/* navbar: starts */
+#navbar-section > .navbar > a{
+  font-size:36px;
+  font-weight: bold;
+  color:red;
+}
+#navbar-section > .navbar > div > ul > li > a{
+    color:black;
+    font-weight: bold;
+
+}
+#navbar-section > .navbar > div > ul > li > a:hover{
+    color:red;
+}
+#navbar-section > .navbar > div > ul > li > .active{
+color:red;
+}
+#navbar-section > .navbar > div > form > button{
+     border:solid 2px #58C2DD;
+    
+
+}
+#navbar-section > .navbar > div > form > button:hover{
+    background:#58C2DD;
+    
+}
+/* navbar: ends */
+
+/*main carousel */
+#carouselSection{ 
+   
+}
+img{
+  
+   width:100%; 
+}
+
+/*welcome section: starts */
+#welcome-section{
+    background-color:#2222;
+
+}
+#welcome-section > .container >.row >.col-md-5 p{
+  font-size:18px;
+  font-weight: bold;
+  color:#A0522D;
+}
+#welcome-section > .container >.row >.col-md-7 h3{
+    font-weight: bold;
+}
+
+/* welcome section: ends */
+
+#admission-slider-section{
+    background-color:black;
+}
+#footer{
+
+  background:black;
+}
+
+
+
+
+
+
+
+
+table {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+@media screen and (max-width: 365px) {
+  table {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  #footer {
+    color: red; } }
+
+th, tr, td {
+  border-top: solid 2px #ecf0f1;
+  border-bottom: solid 2px #ecf0f1;
+  padding: 4px 15px;
+  text-align: left;
+  margin: 0px 5px; }
+
+tr:nth-child(2n) {
+  background: #ecf0f1; }
+
+tr:hover {
+  background: #cccccc;
+  cursor: pointer; }
